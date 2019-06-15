@@ -29,3 +29,5 @@ teste = dget(file="C:/Users/Alex/Desktop/Projetos/R/quadrado.R")
 rm(teste)
 # dump do estado de execução
 dump(ls(), file="C:/Users/Alex/Desktop/Projetos/R/dump.R")
+# concatenar dataframer
+#merge()

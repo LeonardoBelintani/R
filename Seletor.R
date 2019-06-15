@@ -16,3 +16,5 @@ x[l == "D"]
 x[l %in% c("A","E","I")]
 # retorna os indices dos elementos os elementos
 which(l %in% c("C","B"))
+# remover todos na
+novos_dados <- na.omit(dados)
