@@ -5,13 +5,13 @@ getwd()
 # Liste os arquivos do diretorio
 dir()
 # Pesquise uma função para criar um diretório
-?dir.create
+apropos("dir")
 # pesquise o manual para essa funçao
 help("dir.create")
 # Crie um diretório com o nome "exercicioR"
 dir.create(path="C:/Users/Alex/Desktop/Pós/Regressões/exercicioR")
 # Entre no diretório criado
-setwd(file="C:/Users/Alex/Desktop/Pós/Regressões/exercicioR")
+#setwd(file="C:/Users/Alex/Desktop/Pós/Regressões/exercicioR")
 # crie uma função que multiplique dois valores
 multiplicacao <- function(a,b) {
   return(a*b)
